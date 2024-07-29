@@ -1,7 +1,7 @@
 import 'Frontend/generated/jar-resources/componentes/controltipos/control-tipos.js';
-import '@vaadin/polymer-legacy-adapter/style-modules.js';
-import '@vaadin/vertical-layout/theme/lumo/vaadin-vertical-layout.js';
+import 'Frontend/views/Dashboard.js';
 import '@vaadin/common-frontend/ConnectionIndicator.js';
+import '@vaadin/polymer-legacy-adapter/style-modules.js';
 import '@vaadin/accordion/theme/lumo/vaadin-accordion.js';
 import '@vaadin/details/theme/lumo/vaadin-details.js';
 import '@vaadin/accordion/theme/lumo/vaadin-accordion-panel.js';
@@ -53,6 +53,7 @@ import '@vaadin/message-list/theme/lumo/vaadin-message-list.js';
 import '@vaadin/notification/theme/lumo/vaadin-notification.js';
 import '@vaadin/horizontal-layout/theme/lumo/vaadin-horizontal-layout.js';
 import '@vaadin/scroller/theme/lumo/vaadin-scroller.js';
+import '@vaadin/vertical-layout/theme/lumo/vaadin-vertical-layout.js';
 import '@vaadin/progress-bar/theme/lumo/vaadin-progress-bar.js';
 import '@vaadin/radio-group/theme/lumo/vaadin-radio-button.js';
 import '@vaadin/radio-group/theme/lumo/vaadin-radio-group.js';

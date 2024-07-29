@@ -31,13 +31,11 @@
 				<groupId>com.padre.datacredito</groupId>
 				<artifactId>datacreditos</artifactId>
 				<version>${datacreditos.version}</version>
-				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.padre.componentes</groupId>
 				<artifactId>componentes</artifactId>
 				<version>${componentes.version}</version>
-				<scope>provided</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
