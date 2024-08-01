@@ -9,8 +9,10 @@ public class WebConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(final ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/componentes/**").addResourceLocations("classpath:/META-INF/frontend/componentes");
+		registry.addResourceHandler("/componentes/**").addResourceLocations("classpath:/META-INF/frontend/componentes")
+				.setCachePeriod(3600);
 
-		registry.addResourceHandler("/frontend/**").addResourceLocations("classpath:/frontend/views");
+		registry.addResourceHandler("/frontend/**").addResourceLocations("classpath:/frontend/views")
+				.setCachePeriod(3600);
 	}
 }
