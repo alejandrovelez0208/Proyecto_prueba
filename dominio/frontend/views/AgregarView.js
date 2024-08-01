@@ -1,11 +1,10 @@
 import { LitElement, html } from "lit-element";
-/*import "./componentes/controltipos/control-tipos.js";*/
+import "../generated/jar-resources/componentes/controltipos/control-tipos.js";
 
 class AgregarView extends LitElement {
   render() {
     return html`
-    <h5 id="txt"></h5>
-<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <div class="container">
   <div class="row">
     
@@ -16,7 +15,7 @@ class AgregarView extends LitElement {
       <control-tipos id="tipo" customLabel="Tipos de Garantias" wlabel="140" plabel="left"></control-tipos>
     </div>
   </div>
-</div>-->
+</div>
 `;
   }
 

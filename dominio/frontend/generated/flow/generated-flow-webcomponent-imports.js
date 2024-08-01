@@ -1,5 +1,5 @@
 import 'Frontend/generated/jar-resources/componentes/controltipos/control-tipos.js';
-import 'Frontend/views/Dashboard.js';
+import 'Frontend/views/AgregarView.js';
 import '@vaadin/common-frontend/ConnectionIndicator.js';
 import '@vaadin/polymer-legacy-adapter/style-modules.js';
 import '@vaadin/accordion/theme/lumo/vaadin-accordion.js';

@@ -13,5 +13,4 @@ public class WebConfig implements WebMvcConfigurer {
 
 		registry.addResourceHandler("/frontend/**").addResourceLocations("classpath:/frontend/views");
 	}
-
 }
