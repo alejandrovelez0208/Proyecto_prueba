@@ -6,4 +6,4 @@ class Dashboard extends LitElement {
   }
 }
 
-customElements.define("dashboard", Dashboard);
+customElements.define("dashboard-view", Dashboard);

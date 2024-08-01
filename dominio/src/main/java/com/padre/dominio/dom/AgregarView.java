@@ -8,7 +8,7 @@ import com.vaadin.flow.component.template.Id;
 import com.vaadin.flow.router.Route;
 
 @Route("agregarcomponent")
-@Tag("dashboard")
+@Tag("dashboard-view")
 @JsModule("./views/Dashboard.js")
 public class AgregarView extends LitTemplate {
 	private static final long serialVersionUID = 1L;
